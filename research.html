@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research — Iman Farahbakhsh</title>
+<meta name="description" content="Research of Iman Farahbakhsh: fluid–structure interaction, fluid instability, numerical linear algebra.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+  <nav class="nav">
+    <a class="brand" href="index.html">Iman Farahbakhsh</a>
+    <div class="menu">
+      <a class="active" href="research.html">Research</a>
+      <a href="software.html">Software</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+
+  <main class="doc">
+    <header class="doc-head">
+      <h1>Research</h1>
+      <p class="intro">! Numerical methods that let a flow and the bodies inside it evolve together — and that show where, and why, a steady flow starts to break down.</p>
+    </header>
+
+    <section class="block">
+      <h2 class="label">Themes</h2>
+      <div class="themes">
+        <article class="theme">
+          <div class="theme-text">
+            <span class="num">01</span>
+            <h3>Fluid–Structure Interaction</h3>
+            <p class="s">! Rigid and elastic bodies moving with a viscous flow, solved on one fixed grid. Immersed boundary and one-continuum formulations built on velocity–vorticity and vorticity–stream function variables, extended to full-Eulerian fluid–rigid–elastic systems and two-phase wave–body problems.</p>
+            <ul class="refs">
+              <li><a href="https://doi.org/10.1088/1873-7005/acba44" target="_blank" rel="noopener">Full-Eulerian fluid–rigid–elastic interaction — <i>Fluid Dyn. Res.</i> 2023</a></li>
+              <li><a href="http://dx.doi.org/10.1088/0169-5983/48/1/015509" target="_blank" rel="noopener">Vorticity-based approach to FSI — <i>Fluid Dyn. Res.</i> 2016</a></li>
+              <li><a href="https://doi.org/10.1017/jmech.2015.30" target="_blank" rel="noopener">One-continuum approach — <i>J. Mechanics</i> 2015</a></li>
+            </ul>
+          </div>
+          <figure class="fig"><!-- replace with: <img class="color-on-hover" src="figures/fsi.jpg" alt=""> --><span>figure — fsi.jpg</span></figure>
+        </article>
+
+        <article class="theme">
+          <div class="theme-text">
+            <span class="num">02</span>
+            <h3>Fluid Instability</h3>
+            <p class="s">! Locating where instability begins. Energy gradient theory applied to two-fluid Poiseuille flow and Rayleigh–Taylor instability, and turned into a toolbox that maps the likely onset locus from a computed flow field.</p>
+            <ul class="refs">
+              <li><a href="https://doi.org/10.1088/1873-7005/aac558" target="_blank" rel="noopener">Energy gradient function for Rayleigh–Taylor instability — <i>Fluid Dyn. Res.</i> 2018</a></li>
+              <li><a href="https://doi.org/10.1017/jmech.2014.16" target="_blank" rel="noopener">Instability of two-fluid plane Poiseuille flow — <i>J. Mechanics</i> 2014</a></li>
+              <li><a href="https://www.sciencedirect.com/science/article/pii/S2665963824000939" target="_blank" rel="noopener">FEGC 1.0 — <i>Software Impacts</i> 2024</a></li>
+            </ul>
+          </div>
+          <figure class="fig"><span>figure — instability.jpg</span></figure>
+        </article>
+
+        <article class="theme">
+          <div class="theme-text">
+            <span class="num">03</span>
+            <h3>Numerical Linear Algebra</h3>
+            <p class="s">! Krylov subspace solvers for the large sparse systems behind incompressible flow — preconditioning, storage schemes and high-order compact discretisations of Poisson's equation.</p>
+            <ul class="refs">
+              <li><a href="https://www.global-sci.com/index.php/aam/article/view/22777" target="_blank" rel="noopener">Krylov methods in HOC schemes — <i>Ann. Appl. Math.</i> 2025</a></li>
+              <li><a href="https://www.sciencedirect.com/science/article/pii/S2665963826000102" target="_blank" rel="noopener">HOC-Krylov 1.0 — <i>Software Impacts</i> 2026</a></li>
+            </ul>
+          </div>
+          <figure class="fig"><span>figure — krylov.jpg</span></figure>
+        </article>
+      </div>
+    </section>
+
+    <section class="block">
+      <h2 class="label">Book</h2>
+      <div>
+        <a class="book" href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781119618737" target="_blank" rel="noopener">
+          <span class="t">Krylov Subspace Methods with Application in Incompressible Fluid Flow Solvers</span>
+          <span class="s">John Wiley &amp; Sons, 2020 →</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="block">
+      <h2 class="label">Selected publications</h2>
+      <ol class="pubs">
+        <li><span class="y">2026</span><a href="https://www.sciencedirect.com/science/article/pii/S2665963826000102" target="_blank" rel="noopener"><span class="t">HOC-Krylov 1.0: A package of Krylov subspace solvers based on high-order compact schemes for Poisson's equation</span><span class="s">with B. Barani Nia — Software Impacts 27, 100820</span></a></li>
+        <li><span class="y">2025</span><a href="https://www.global-sci.com/index.php/aam/article/view/22777" target="_blank" rel="noopener"><span class="t">A survey on the performance of Krylov subspace methods in high-order compact schemes for Poisson's equation</span><span class="s">with B. Barani Nia, M. Dehghan — Annals of Applied Mathematics 41(2), 239–266</span></a></li>
+        <li><span class="y">2024</span><a href="https://www.sciencedirect.com/science/article/pii/S2665963824000939" target="_blank" rel="noopener"><span class="t">FEGC 1.0: Flow energy gradient calculator for predicting the fluid flow instability initiation locus</span><span class="s">with B. Barani Nia — Software Impacts 22, 100705</span></a></li>
+        <li><span class="y">2024</span><a href="https://www.sciencedirect.com/science/article/pii/S2665963824000289" target="_blank" rel="noopener"><span class="t">SPHMPS 1.0: A smoothed-particle-hydrodynamics multi-physics solver</span><span class="s">with B. Barani Nia, E. Oterkus — Software Impacts 20, 100640</span></a></li>
+        <li><span class="y">2023</span><a href="https://doi.org/10.1088/1873-7005/acba44" target="_blank" rel="noopener"><span class="t">A full-Eulerian approach for a system of fluid–rigid–elastic structure interaction based on the vorticity–stream function formulation</span><span class="s">with A. Paknejad, H. Ghassemi — Fluid Dynamics Research 55, 015505</span></a></li>
+        <li><span class="y">2023</span><a href="https://link.springer.com/article/10.1007/s42102-023-00110-y" target="_blank" rel="noopener"><span class="t">SPH simulation of pin shape effects on material flow in friction stir welding</span><span class="s">with B. Barani Nia, E. Oterkus — J. Peridynamics and Nonlocal Modeling 5(4)</span></a></li>
+        <li><span class="y">2018</span><a href="https://doi.org/10.1088/1873-7005/aac558" target="_blank" rel="noopener"><span class="t">Derivation of energy gradient function for Rayleigh–Taylor instability</span><span class="s">with H. S. Dou — Fluid Dynamics Research 50, 045509</span></a></li>
+        <li><span class="y">2016</span><a href="http://dx.doi.org/10.1088/0169-5983/48/1/015509" target="_blank" rel="noopener"><span class="t">A vorticity based approach to handle the fluid–structure interaction problems</span><span class="s">with H. Ghassemi, F. Sabetghadam — Fluid Dynamics Research 48, 015509</span></a></li>
+        <li><span class="y">2015</span><a href="https://doi.org/10.1017/jmech.2015.30" target="_blank" rel="noopener"><span class="t">A one-continuum approach for mutual interaction of fluids and structures</span><span class="s">with H. Ghassemi, F. Sabetghadam — Journal of Mechanics 31, 745–755</span></a></li>
+        <li><span class="y">2015</span><a href="https://doi.org/10.1017/jmech.2014.82" target="_blank" rel="noopener"><span class="t">An immersed boundary method based on the kinematic relation of the velocity–vorticity formulation</span><span class="s">with H. Ghassemi, F. Sabetghadam — Journal of Mechanics 31, 171–181</span></a></li>
+      </ol>
+    </section>
+
+    <section class="block">
+      <h2 class="label">Projects &amp; grants</h2>
+      <ul class="rows">
+        <li><span class="y">2022–23</span><span><span class="t">Blood flow and oxygen saturation in extracorporeal membrane oxygenators</span><span class="s">NafasYar Teb Company</span></span></li>
+        <li><span class="y">2022</span><span><span class="t">Erasmus+ Teaching Staff Mobility grant</span><span class="s">European Commission</span></span></li>
+        <li><span class="y">2017–19</span><span><span class="t">Numerical model for tracking oil slicks</span><span class="s">Ports and Maritime Organization</span></span></li>
+        <li><span class="y">2016–17</span><span><span class="t">Gas exchange in zeolite columns of oxygen generators</span><span class="s">NafasYar Teb Company</span></span></li>
+      </ul>
+    </section>
+
+    <section class="block">
+      <h2 class="label">Students supervised</h2>
+      <!-- Copy a <li> per student. Fields: years · Name · thesis title · degree -->
+      <ul class="rows">
+        <li><span class="y">[year]</span><span><span class="t">[Student name] — PhD</span><span class="s">[Thesis title]</span></span></li>
+        <li><span class="y">[year]</span><span><span class="t">[Student name] — MSc</span><span class="s">[Thesis title]</span></span></li>
+      </ul>
+    </section>
+
+    <section class="block">
+      <h2 class="label">Collaborations</h2>
+      <ul class="rows">
+        <li><span class="y">2022</span><span><span class="t">Technical University of Denmark (DTU)</span><span class="s">Guest researcher, Fluid Mechanics, Coastal and Maritime Engineering — two-phase wave–body interaction with H. B. Bingham and M. Amini-Afshar</span></span></li>
+        <li><span class="y">2023–</span><span><span class="t">E. Oterkus</span><span class="s">Smoothed particle hydrodynamics and multi-physics solvers</span></span></li>
+        <li><span class="y">2014–</span><span><span class="t">H. S. Dou</span><span class="s">Energy gradient theory of flow instability</span></span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <a href="mailto:i.farahbakhsh@outlook.com">
+      <svg viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+      <span>Email</span>
+    </a>
+    <a href="https://github.com/imanfarahbakhsh" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+      <span>GitHub</span>
+    </a>
+    <a href="https://scholar.google.co.uk/citations?hl=en&amp;user=B8ajVVsAAAAJ" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M3 8 9 3h12l-6 5Z"/><path d="M19 3v6"/><circle cx="11" cy="12" r="3"/><path d="M9.5 14.6c-1.6.6-1.4 2 .3 2.4h2.7c2.2 0 3.5 1.1 3.5 2.5S14.3 22 11 22s-5-1.1-5-2.5c0-.9.7-1.7 2-2.1"/></svg>
+      <span>Google Scholar</span>
+    </a>
+    <a href="https://orcid.org/0000-0001-5304-8348" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 10.5v6"/><path d="M8 7.5h.01"/><path d="M11.5 10.5v6h1.8a3 3 0 0 0 0-6Z"/></svg>
+      <span>ORCID</span>
+    </a>
+  </footer>
+</div>
+</body>
+</html>
